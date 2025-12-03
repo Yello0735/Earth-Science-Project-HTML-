@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Interactions</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+        
+        <style>
+            /* --- Global & Base Styles --- */
+            :root {
+                --color-primary: #1e88e5; /* Strong Blue */
+                --color-secondary: #00bfa5; /* Teal/Green Accent */
+                --color-text-dark: #212121;
+                --color-background-light: #f5f5f5;
+                --color-background-gradient: linear-gradient(135deg, #e0f7fa 0%, #bbdefb 100%);
+            }
+
+            body {
+                font-family: 'Montserrat', sans-serif;
+                margin: 0;
+                padding: 0;
+                line-height: 1.7;
+                color: var(--color-text-dark);
+                background: var(--color-background-gradient); /* Fancy Gradient Background */
+                min-height: 100vh;
+            }
+            .container {
+                max-width: 1100px;
+                margin: 40px auto;
+                padding: 0 25px;
+            }
+            
+            /* --- Header and Typography --- */
+            h1 {
+                text-align: center;
+                color: var(--color-primary); 
+                font-weight: 900;
+                font-size: 2.8em;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+                padding: 30px 0;
+                margin-bottom: 30px;
+                letter-spacing: 2px;
+                border-bottom: 6px double var(--color-secondary);
+            }
+            h2 {
+                color: var(--color-secondary); 
+                font-weight: 700;
+                font-size: 1.8em;
+                margin-top: 40px;
+                padding-bottom: 10px;
+                border-bottom: 2px solid rgba(0, 191, 165, 0.3);
+            }
+            h3 {
+                color: var(--color-primary); 
+                font-weight: 700;
+                margin-top: 25px;
+                font-size: 1.3em;
+            }
+            h4 {
+                color: #546e7a; /* Muted subtitle color */
+                font-weight: 400;
+                margin-top: 10px;
+                margin-bottom: 5px;
+            }
+
+            /* --- Content Boxes (The Fancy Cards) --- */
+            .section-box {
+                background-color: #ffffff; 
+                padding: 35px;
+                margin-bottom: 35px;
+                border-radius: 15px; /* Softer, rounder corners */
+                /* Stronger, more defined shadow for 'floating' effect */
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); 
+                transition: all 0.4s ease-in-out;
+            }
+
+            .section-box:hover {
+                transform: scale(1.01); /* Subtle zoom effect */
+                box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3); 
+            }
+
+            /* --- Lists and Paragraphs --- */
+            p {
+                margin-bottom: 20px;
+                font-weight: 300;
+            }
+            ul {
+                list-style-type: none; 
+                padding-left: 0;
+            }
+            ul li {
+                position: relative;
+                padding-left: 30px;
+                margin-bottom: 10px;
+                /* Custom bullet point using a pseudo-element */
+            }
+            ul li::before {
+                content: '✨'; /* Fancy emoji bullet point */
+                position: absolute;
+                left: 0;
+                color: var(--color-secondary);
+                font-size: 1.1em;
+            }
+            
+            strong {
+                color: var(--color-primary);
+                font-weight: 700;
+            }
+
+            /* --- Footer --- */
+            footer {
+                text-align: center;
+                padding: 20px;
+                margin-top: 40px;
+                background-color: rgba(30, 136, 229, 0.8); /* Semi-transparent footer */
+                color: white;
+                font-size: 0.9em;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            
+            <h1>Interactions between Hydrosphere and Biosphere</h1>
+            
+
+            <div class="section-box">
+                <h2>Effects of Hydrosphere on Biosphere. 
+</h2>
+                <p>In all Biosphere activities, we use hydrosphere (the entire water body on Earth: the oceans, rivers, ice, and groundwater) as a medium, environment and logistics system. 
+</p>
+                
+                <h3>1. Water supplies and facilities. 
+</h3>
+<p>The availability of water is the most important factor determining where and how life goes on this planet. 
+</p>
+                <ul>
+                    <li>Essential Solvents: Indeed, water is a universal solvent since it is the substance that dissolves and is in liquid state within nature and it contains every required component (oxygen and dissolved minerals) for cells to survive. Indeed, it is the reactions that provide life functions that would not be possible without water. 
+</li>
+                    <li>Aquatic habitat: Oceans, lakes, rivers and swamps comprise the ecosystems in which all aquatic beings live, representing to an almost complete extent of the earth's whole life. 
+</li>
+<li>Temperature Buffering: Huge water bodies, mainly the ocean, can store heat and let it be released at a slow pace, which then stabilizes the temperatures where it occurs. That prevents rapid, fatal swings in temperature from taking place and that would threaten the life or death of most life. 
+</li>
+                </ul>
+
+                <h3>2. Nutrient Transport and Natural Force. 
+</h3>
+<p>The movement of water physically influences the biosphere, affecting both the physical movement of organisms and the supply of vital materials.
+</p>
+                <ul>
+                    <li>Erosion and Physical Impact: The physical force of flowing water and ocean waves can erode and remove life (like pulling up vegetation or destroying coral reefs). Conversely, rivers deposit sediment onto floodplains, creating new, nutrient-rich soil that supports dense terrestrial plant life.
+</li>
+                    <li>Ocean circulation: The heat of the ocean flows worldwide, as currents move, around the world, from the ocean. Cool ocean currents transport nutrients from low to high and bottom to surface (upwelling), and since there are so many aquatic (fish, and plankton), the populations of the living things do excellently. 
+</li>
+                </ul>
+
+            </div>
+
+            <div class="section-box">
+                <h2>Impacts of the Biosphere on Hydrosphere
+</h2>
+                <p>The Biosphere (living organisms) actively modifies the physical, chemical, and quality properties of the Hydrosphere.
+</p>
+                
+                <h3>1. Water Quality & Composition. 
+</h3>
+<p>Life changes the chemical content and transparency of water. 
+</p>
+                <ul>
+                    <li>Biological Filter: Filter feeders — like clams, oysters and others — that move the particles and unwanted substances from the water, making its water clearer and cleaner. Wetland plants, for instance, can take up nutrients they absorb, such as fertilizer runoff and prevent those nutrients from reaching larger water bodies. 
+</li>
+                    <li>Ocean Chemistry of The Ocean Hard Structure: Coral and shellfish, marine systems that depend heavily upon the action of seawater can ingest more dissolved substances and form tough shells and strong skeletons. It changes how many carbon compounds remain in the carbon-enriched water or the shell or rocky bedrock for retention over tens of thousands of years of seaweeds. 
+</li>
+                </ul>
+
+                <h3>2. Water Storage and Cycling Two.
+</h3>
+<p> Life-related systems in a natural world include how physical aspects of life affect the storage mechanism of water and movement of water movement through space.
+</p>
+                <ul>
+                    <li>Groundwater recharge: plant roots are what are actually able to create openings in the plants and change the structure of the soil they root on leading to a more penetrating of rain due to this process. 
+</li>
+                    <li>The water retention and water regulation: When a forest canopy collects rainwater it slows water flow down to its roots, less surface runoff occurs, and prevents the soil from being washed into waterways. Also adding up are rooting plants to prevent the soil being washed into waterways, which would make the water cloudier.</li>
+                </ul>
+
+            </div>
+
+            
+
+        </div>
+        
+        <footer>
+            &copy; Ojal Sharma
+        </footer>
+    </body>
+</html>
+
